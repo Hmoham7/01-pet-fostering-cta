@@ -63,3 +63,23 @@ header h1 {
 .cta-button:hover {
   background-color: #FFC107; /* Slightly darker yellow on hover */
 }
+
+/* Style the info section below the banner */
+.info-section {
+  max-width: 1200px; /* Center the section on the page */
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex; /* Arrange in two columns */
+  gap: 20px;
+}
+
+/* Style each column to be evenly sized */
+.column {
+  flex: 1;
+}
+
+/* Style the image in the column */
+.column img {
+  max-width: 100%;
+  height: auto;
+}
