@@ -1,0 +1,62 @@
+/* Set a modern, easy-to-read font for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header to be simple and short */
+header {
+  background-color: #20B2AA; /* Teal background to align with palette */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Style the CTA banner section to be tall and visually striking */
+.cta-banner {
+  height: 80vh; /* Tall banner */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to bottom, #007BFF, #20B2AA); /* Blue to teal gradient for nature-inspired palette */
+  color: white;
+  padding: 20px;
+}
+
+/* Style the large main heading */
+.cta-banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+/* Style the short description paragraph */
+.cta-banner p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+/* Style the call-to-action button to be bright and eye-catching */
+.cta-button {
+  display: inline-block;
+  background-color: #FFD700; /* Bright yellow for contrast */
+  color: #007BFF; /* Blue text */
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.cta-button:hover {
+  background-color: #FFC107; /* Slightly darker yellow on hover */
+}
