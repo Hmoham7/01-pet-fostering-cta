@@ -25,7 +25,7 @@ body {
   padding: 120px 20px;
   text-align: center;
   color: #ffffff;
-  background-image: linear-gradient(rgba(4, 94, 110, 0.65), rgba(11, 124, 145, 0.65)), url("img/cta-bg.jpg");
+  background-image: linear-gradient(rgba(4, 94, 110, 0.35), rgba(11, 124, 145, 0.35)), url("img/cta-bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -57,4 +57,53 @@ body {
   text-decoration: none;
   border-radius: 8px;
   border: 2px solid #ffffff;
+}
+
+/* Center the information section below the banner */
+.foster-info {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Create two even columns with simple sizing */
+.info-column {
+  display: inline-block;
+  width: 46%;
+  margin: 1.5%;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+/* Make the image fill its column neatly */
+.info-column img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Keep text readable and aligned for easy scanning */
+.text-column {
+  text-align: left;
+  color: #0b5f73;
+}
+
+/* Style the section heading */
+.text-column h2 {
+  margin-top: 0;
+  font-size: 34px;
+}
+
+/* Style the section paragraphs */
+.text-column p {
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+/* Stack columns on small screens for readability */
+@media (max-width: 700px) {
+  .info-column {
+    width: 100%;
+    margin: 0 0 20px;
+  }
 }
