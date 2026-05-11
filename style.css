@@ -1,88 +1,46 @@
-/* Set a modern, easy-to-read font for the whole page */
+/* Use a modern, clean font across the page */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #eaf6f5;
 }
 
-/* Style the header to be simple and short */
-header {
-  background-color: #20B2AA; /* Teal background to align with palette */
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2em;
-}
-
-/* Style the CTA banner section to be tall and visually striking */
+/* Create a tall, bold banner with blue and teal tones */
 .cta-banner {
-  height: 80vh; /* Tall banner */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  min-height: 85vh;
+  padding: 120px 20px;
   text-align: center;
-  background: linear-gradient(rgba(0,123,255,0.5), rgba(32,178,170,0.5)), url('img/cta-bg.jpg'); /* Light overlay on background image */
+  color: #ffffff;
+  background-image: linear-gradient(rgba(4, 94, 110, 0.65), rgba(11, 124, 145, 0.65)), url("img/cta-bg.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-  padding: 20px;
 }
 
-/* Style the large main heading */
+/* Make the headline large and attention-grabbing */
 .cta-banner h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
+  margin: 0 auto 18px;
+  max-width: 720px;
+  font-size: 56px;
+  line-height: 1.2;
 }
 
-/* Style the short description paragraph */
+/* Keep the supporting text short and easy to read */
 .cta-banner p {
-  font-size: 1.2em;
-  margin-bottom: 30px;
-  max-width: 600px;
+  margin: 0 auto 34px;
+  max-width: 680px;
+  font-size: 22px;
+  line-height: 1.5;
 }
 
-/* Style the call-to-action button to be bright and eye-catching */
+/* Style the CTA link like a bright button */
 .cta-button {
   display: inline-block;
-  background-color: #FFD700; /* Bright yellow for contrast */
-  color: #007BFF; /* Blue text */
-  padding: 15px 30px;
+  padding: 14px 30px;
+  background-color: #f7d154;
+  color: #05566f;
+  font-size: 20px;
+  font-weight: 700;
   text-decoration: none;
-  font-size: 1.2em;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-/* Hover effect for the button */
-.cta-button:hover {
-  background-color: #FFC107; /* Slightly darker yellow on hover */
-}
-
-/* Style the info section below the banner */
-.info-section {
-  max-width: 1200px; /* Center the section on the page */
-  margin: 0 auto;
-  padding: 40px 100px;
-  display: flex; /* Arrange in two columns */
-  gap: 5px;
-  border-radius: 15px;
-  background-color: #f8f9fa; /* Light background for info section */
-}
-
-/* Style each column to be evenly sized */
-.column {
-  flex: 1;
-}
-
-/* Style the image in the column */
-.column img {
-  max-width: 80%;
-  height: auto;
-  border-radius: 10px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
 }
