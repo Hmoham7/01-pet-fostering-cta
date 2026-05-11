@@ -5,6 +5,20 @@ body {
   background-color: #eaf6f5;
 }
 
+/* Keep the top header short and easy to read */
+.site-header {
+  text-align: center;
+  background-color: #0c7288;
+  color: #ffffff;
+  padding: 12px 10px;
+}
+
+/* Style the site name in the header */
+.site-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
 /* Create a tall, bold banner with blue and teal tones */
 .cta-banner {
   min-height: 85vh;
